@@ -6,6 +6,9 @@ import Home from "../pages/Home";
 import About from '../pages/About';
 import Contact from "../pages/Contact";
 import Api from "../pages/Api";
+import Services from "../pages/Services";
+import TwoLines from "../pages/TwoLines";
+import { Carousel } from "bootstrap";
 
 const Display = () => {
   return (
@@ -18,6 +21,10 @@ const Display = () => {
           <Route path="api" element={<Api />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Home />
+        <Services />
+        <TwoLines />
+        <Carousel />
         <Footer />
       </BrowserRouter>
     </div>
