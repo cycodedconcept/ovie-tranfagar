@@ -19,3 +19,5 @@ export const SVG2= require('./trafalgar-illustration sec03 1.png');
 export const WhiteRect = require('./Rectangle 17.png');
 export const BlackRect = require('./Rectangle 2.png');
 
+export const WhiteLogo = require('./Trafalgar.png')
+

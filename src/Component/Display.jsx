@@ -1,15 +1,7 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"; 
-import Navbar from "./Navigation/Navbar";
-import Footer from "./Footer/Footer";
-import Home from "../pages/Home";
-import About from '../pages/About';
-import Contact from "../pages/Contact";
-import Api from "../pages/Api";
-import Services from "../pages/Services";
-import TwoLines from "../pages/TwoLines";
-import { Carousel } from "bootstrap";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import { Navbar, Footer } from "../Component";
+import { Home, About, Contact, Api, Services, TwoLines, Movement, Articles, ServiceR } from "../pages";
 const Display = () => {
   return (
     <div>
@@ -21,10 +13,12 @@ const Display = () => {
           <Route path="api" element={<Api />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-        <Home />
+        {/* <Home /> */}
         <Services />
+        {/* <ServiceR /> */}
         <TwoLines />
-        <Carousel />
+        <Movement />
+        <Articles />
         <Footer />
       </BrowserRouter>
     </div>

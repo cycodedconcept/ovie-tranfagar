@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+
+a{
+    text-decoration: none !important;
+    color: white;
+    text-decoration-color: white !important;
+}
+
+h5{
+    font-weight: bold;
+    color: white;
+}
+
+.footer{
+ background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    ;
+}
+
+p{
+    color: white;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+/* Changing the color */
+.link:hover { 
+    color: #5b9df2; 
+}
+
+.circle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: #5A98F2;
+  }
+
+  .text {
+    margin: auto;
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dewhite{
+    color: #fff;
+}
+
+.jcole{
+    text-align: left;
+    font-size: 50px;
+}
+
+.tar-p{
+    p{
+        text-align: left;
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 994px) {
+    .logo{
+        align-items: baseline;
+        justify-content: center;
+    } 
+    
+    .tar-p{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .jcole{
+            text-align: center;
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+
+   
+}
+

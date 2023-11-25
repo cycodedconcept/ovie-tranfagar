@@ -1,83 +1,129 @@
 import React from "react";
-import './footer.css';
+import "./footer.scss";
 
 const Footer = () => {
   return (
     <React.Fragment>
-      <footer className="bg-dark text-center text-white">
-        {/* <!-- Grid container --> */}
-        <div className="container p-4 pb-0">
-          {/* <!-- Section: Social media --> */}
-          <section className="mb-4">
-            {/* <!-- Facebook --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-facebook-f"></i>
-            </a>
+      <section class="">
+        {/* !-- Footer -- */}
+        <footer class="footer bg-body-tertiary text-center text-md-start">
+          {/* !-- Grid container -- */}
+          <div class="container p-4">
+            {/* <!--Grid row--> */}
+            <div class="row">
+              {/* <!--Grid column--> */}
+              <div class="col-lg-6 col-md-12 mb-3 mb-md-0">
+                {/* <img src= { WhiteLogo } alt="" /> */}
+                <div className="logo mb-0">
+                  <div class="circle">
+                    <h2 className="text">T</h2>
+                  </div>
+                  <h2 className="dewhite">Trafalgar</h2>
+                </div>
 
-            {/* <!-- Twitter --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
+                <div className="tar-p">
+                  <p className="jcole">
+                    Trafalgar provides progressive, and affordable healthcare,
+                    accessible on mobile and online for everyone
+                  </p>
+                  <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                </div>
+              </div>
+              {/* <!--Grid column--> */}
 
-            {/* <!-- Google --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-google"></i>
-            </a>
+              {/* <!--Grid column--> */}
+              <div class="col-lg-2 col-md-4 mb-3 mt-md-5 text-center" style={{fontSize: "20px"}}>
+                <h5 class="text-uppercase">Company</h5>
 
-            {/* <!-- Instagram --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a href="#!" className="link">
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Testimonials
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Find a doctor
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Apps
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* <!--Grid column--> */}
 
-            {/* <!-- Linkedin --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
+              {/* <!--Grid column--> */}
+              <div class="col-lg-2 col-md-4 mb-3 mt-md-5 text-center" style={{fontSize: "20px"}}>
+                <h5 class="text-uppercase">Regions</h5>
 
-            {/* <!-- Github --> */}
-            <a
-              className="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-          </section>
-          {/* <!-- Section: Social media --> */}
-        </div>
-        {/* <!-- Grid container --> */}
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a href="#!" className="link">
+                      Indonesia
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Singapore
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Hongkong
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Canada
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* <!--Grid column--> */}
 
-        {/* <!-- Copyright --> */}
-        <div
-          className="text-center p-3"
-        >
-          © 2020 Copyright:
-          <a className="text-white" href="#">
-            Trap
-          </a>
-        </div>
-        {/* <!-- Copyright --> */}
-      </footer>
+              {/* <!--Grid column--> */}
+              <div class="col-lg-2 col-md-4 mb-3 mt-md-5 text-center" style={{fontSize: "20px"}}>
+                <h5 class="text-uppercase mb-2">Help</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!" className="link">
+                      Help center
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Contact support
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      Instructions
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="link">
+                      How it works
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              {/* <!--Grid column--> */}
+            </div>
+            {/* <!--Grid row--> */}
+          </div>
+          {/* <!-- Grid container --> */}
+        </footer>
+        {/* <!-- Footer --> */}
+      </section>
     </React.Fragment>
   );
 };

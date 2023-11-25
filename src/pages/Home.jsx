@@ -1,9 +1,7 @@
 import React from "react";
-import {
-  HeroImg,
-} from "../assets";
-
-
+import "./style.scss";
+// import { WhiteRect, Man } from "../assets";
+import { HeroImg } from "../assets";
 
 const Home = () => {
   return (
@@ -23,7 +21,7 @@ const Home = () => {
               <button id="consult">Consult today</button>
             </div>
             <div className="col-sm-12 col-md-12 col-lg-6">
-              <img src={HeroImg} alt="" />
+              <img src={HeroImg} alt="" className="w-100" />
             </div>
           </div>
         </div>
