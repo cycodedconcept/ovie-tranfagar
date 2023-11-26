@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import { Navbar, Footer } from "../Component";
-import { Home, About, Contact, Api, Services, TwoLines, Movement, Articles, ServiceR } from "../pages";
+import { Home, About, Contact, Api, Services, TwoLines, Movement, Articles } from "../pages";
 const Display = () => {
   return (
     <div>
@@ -13,9 +13,7 @@ const Display = () => {
           <Route path="api" element={<Api />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-        {/* <Home /> */}
         <Services />
-        {/* <ServiceR /> */}
         <TwoLines />
         <Movement />
         <Articles />
